@@ -14,6 +14,8 @@
 		F01165231CAD682F00DC915A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01165211CAD682F00DC915A /* LaunchScreen.storyboard */; };
 		F011652E1CAD683000DC915A /* notulenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011652D1CAD683000DC915A /* notulenTests.swift */; };
 		F01165391CAD683000DC915A /* notulenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165381CAD683000DC915A /* notulenUITests.swift */; };
+		F01165491CAD732F00DC915A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165481CAD732F00DC915A /* TableViewCell.swift */; };
+		F0EAA83A1CB2AB0D00AE083C /* listItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAA8391CB2AB0D00AE083C /* listItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F01165341CAD683000DC915A /* notulenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notulenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01165381CAD683000DC915A /* notulenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notulenUITests.swift; sourceTree = "<group>"; };
 		F011653A1CAD683000DC915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01165481CAD732F00DC915A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F0EAA8391CB2AB0D00AE083C /* listItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F011651F1CAD682F00DC915A /* Assets.xcassets */,
 				F01165211CAD682F00DC915A /* LaunchScreen.storyboard */,
 				F01165241CAD682F00DC915A /* Info.plist */,
+				F01165481CAD732F00DC915A /* TableViewCell.swift */,
+				F0EAA8391CB2AB0D00AE083C /* listItem.swift */,
 			);
 			path = notulen;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EAA83A1CB2AB0D00AE083C /* listItem.swift in Sources */,
 				F011651B1CAD682E00DC915A /* ViewController.swift in Sources */,
+				F01165491CAD732F00DC915A /* TableViewCell.swift in Sources */,
 				F01165191CAD682E00DC915A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				F011653F1CAD683000DC915A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F01165401CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulenTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				F01165421CAD683000DC915A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F01165431CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulenUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				F01165451CAD683000DC915A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
