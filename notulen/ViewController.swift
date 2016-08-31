@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
     @IBOutlet weak var itemText: UITextField!
     
     let reuseIdentifier = "cell"
+    let emailSegueIdentifier = "showEmailSegue"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,13 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == emailSegueIdentifier {
+            let destination = segue.destinationViewController as! EmailViewController
+            destination.lists = lists
+        }
     }
 
     @IBAction func btnAddItem(sender: UIButton) {
@@ -40,6 +48,16 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
             itemText.text = nil
             tableView.reloadData()
         }
+    }
+    
+    @IBAction func btnClear(sender: UIBarButtonItem) {
+        lists.delete()
+        tableView.reloadData()
+    }
+    
+    
+    @IBAction func btnSendEmail(sender: UIBarButtonItem) {
+        self.performSegueWithIdentifier(emailSegueIdentifier, sender: sender)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

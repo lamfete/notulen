@@ -15,6 +15,7 @@
 		F011652E1CAD683000DC915A /* notulenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011652D1CAD683000DC915A /* notulenTests.swift */; };
 		F01165391CAD683000DC915A /* notulenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165381CAD683000DC915A /* notulenUITests.swift */; };
 		F01165491CAD732F00DC915A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165481CAD732F00DC915A /* TableViewCell.swift */; };
+		F0D63FAD1D772A1300E18D10 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D63FAC1D772A1300E18D10 /* EmailViewController.swift */; };
 		F0EAA83A1CB2AB0D00AE083C /* listItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAA8391CB2AB0D00AE083C /* listItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		F01165381CAD683000DC915A /* notulenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notulenUITests.swift; sourceTree = "<group>"; };
 		F011653A1CAD683000DC915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F01165481CAD732F00DC915A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F0D63FAC1D772A1300E18D10 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		F0EAA8391CB2AB0D00AE083C /* listItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 			children = (
 				F01165181CAD682E00DC915A /* AppDelegate.swift */,
 				F011651A1CAD682E00DC915A /* ViewController.swift */,
+				F0D63FAC1D772A1300E18D10 /* EmailViewController.swift */,
 				F011651C1CAD682F00DC915A /* Main.storyboard */,
 				F011651F1CAD682F00DC915A /* Assets.xcassets */,
 				F01165211CAD682F00DC915A /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				F011651B1CAD682E00DC915A /* ViewController.swift in Sources */,
 				F01165491CAD732F00DC915A /* TableViewCell.swift in Sources */,
 				F01165191CAD682E00DC915A /* AppDelegate.swift in Sources */,
+				F0D63FAD1D772A1300E18D10 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

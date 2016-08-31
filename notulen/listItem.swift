@@ -20,4 +20,19 @@ class ListItem: NSObject {
     func addItem(descNew: String) {
         items.append(item(desc: descNew))
     }
+    
+    func rowItem() -> String {
+        var result = ""
+        var count = 1
+        for item in items {
+            print(item.desc)
+            result = result + String(count) + ". " + item.desc + "\n"
+            count = count + 1
+        }
+        return result
+    }
+    
+    func delete() {
+        items.removeAll()
+    }
 }
