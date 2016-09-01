@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F01165191CAD682E00DC915A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165181CAD682E00DC915A /* AppDelegate.swift */; };
+		F011651B1CAD682E00DC915A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011651A1CAD682E00DC915A /* ViewController.swift */; };
+		F011651E1CAD682F00DC915A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F011651C1CAD682F00DC915A /* Main.storyboard */; };
+		F01165201CAD682F00DC915A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F011651F1CAD682F00DC915A /* Assets.xcassets */; };
+		F01165231CAD682F00DC915A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01165211CAD682F00DC915A /* LaunchScreen.storyboard */; };
+		F011652E1CAD683000DC915A /* notulenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011652D1CAD683000DC915A /* notulenTests.swift */; };
+		F01165391CAD683000DC915A /* notulenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165381CAD683000DC915A /* notulenUITests.swift */; };
+		F01165491CAD732F00DC915A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01165481CAD732F00DC915A /* TableViewCell.swift */; };
+		F0D63FAD1D772A1300E18D10 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D63FAC1D772A1300E18D10 /* EmailViewController.swift */; };
+		F0EAA83A1CB2AB0D00AE083C /* listItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAA8391CB2AB0D00AE083C /* listItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F011652A1CAD683000DC915A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F011650D1CAD682D00DC915A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01165141CAD682E00DC915A;
+			remoteInfo = notulen;
+		};
+		F01165351CAD683000DC915A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F011650D1CAD682D00DC915A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01165141CAD682E00DC915A;
+			remoteInfo = notulen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F01165151CAD682E00DC915A /* notulen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notulen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01165181CAD682E00DC915A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F011651A1CAD682E00DC915A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F011651D1CAD682F00DC915A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F011651F1CAD682F00DC915A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F01165221CAD682F00DC915A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F01165241CAD682F00DC915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01165291CAD683000DC915A /* notulenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notulenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F011652D1CAD683000DC915A /* notulenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notulenTests.swift; sourceTree = "<group>"; };
+		F011652F1CAD683000DC915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01165341CAD683000DC915A /* notulenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notulenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01165381CAD683000DC915A /* notulenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notulenUITests.swift; sourceTree = "<group>"; };
+		F011653A1CAD683000DC915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01165481CAD732F00DC915A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F0D63FAC1D772A1300E18D10 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		F0EAA8391CB2AB0D00AE083C /* listItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01165121CAD682E00DC915A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01165261CAD683000DC915A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01165311CAD683000DC915A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F011650C1CAD682D00DC915A = {
+			isa = PBXGroup;
+			children = (
+				F01165171CAD682E00DC915A /* notulen */,
+				F011652C1CAD683000DC915A /* notulenTests */,
+				F01165371CAD683000DC915A /* notulenUITests */,
+				F01165161CAD682E00DC915A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F01165161CAD682E00DC915A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01165151CAD682E00DC915A /* notulen.app */,
+				F01165291CAD683000DC915A /* notulenTests.xctest */,
+				F01165341CAD683000DC915A /* notulenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01165171CAD682E00DC915A /* notulen */ = {
+			isa = PBXGroup;
+			children = (
+				F01165181CAD682E00DC915A /* AppDelegate.swift */,
+				F011651A1CAD682E00DC915A /* ViewController.swift */,
+				F0D63FAC1D772A1300E18D10 /* EmailViewController.swift */,
+				F011651C1CAD682F00DC915A /* Main.storyboard */,
+				F011651F1CAD682F00DC915A /* Assets.xcassets */,
+				F01165211CAD682F00DC915A /* LaunchScreen.storyboard */,
+				F01165241CAD682F00DC915A /* Info.plist */,
+				F01165481CAD732F00DC915A /* TableViewCell.swift */,
+				F0EAA8391CB2AB0D00AE083C /* listItem.swift */,
+			);
+			path = notulen;
+			sourceTree = "<group>";
+		};
+		F011652C1CAD683000DC915A /* notulenTests */ = {
+			isa = PBXGroup;
+			children = (
+				F011652D1CAD683000DC915A /* notulenTests.swift */,
+				F011652F1CAD683000DC915A /* Info.plist */,
+			);
+			path = notulenTests;
+			sourceTree = "<group>";
+		};
+		F01165371CAD683000DC915A /* notulenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F01165381CAD683000DC915A /* notulenUITests.swift */,
+				F011653A1CAD683000DC915A /* Info.plist */,
+			);
+			path = notulenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01165141CAD682E00DC915A /* notulen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F011653D1CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulen" */;
+			buildPhases = (
+				F01165111CAD682E00DC915A /* Sources */,
+				F01165121CAD682E00DC915A /* Frameworks */,
+				F01165131CAD682E00DC915A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notulen;
+			productName = notulen;
+			productReference = F01165151CAD682E00DC915A /* notulen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F01165281CAD683000DC915A /* notulenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01165401CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulenTests" */;
+			buildPhases = (
+				F01165251CAD683000DC915A /* Sources */,
+				F01165261CAD683000DC915A /* Frameworks */,
+				F01165271CAD683000DC915A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F011652B1CAD683000DC915A /* PBXTargetDependency */,
+			);
+			name = notulenTests;
+			productName = notulenTests;
+			productReference = F01165291CAD683000DC915A /* notulenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F01165331CAD683000DC915A /* notulenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01165431CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulenUITests" */;
+			buildPhases = (
+				F01165301CAD683000DC915A /* Sources */,
+				F01165311CAD683000DC915A /* Frameworks */,
+				F01165321CAD683000DC915A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01165361CAD683000DC915A /* PBXTargetDependency */,
+			);
+			name = notulenUITests;
+			productName = notulenUITests;
+			productReference = F01165341CAD683000DC915A /* notulenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F011650D1CAD682D00DC915A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiang;
+				TargetAttributes = {
+					F01165141CAD682E00DC915A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X832BUGUFX;
+					};
+					F01165281CAD683000DC915A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F01165141CAD682E00DC915A;
+					};
+					F01165331CAD683000DC915A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F01165141CAD682E00DC915A;
+					};
+				};
+			};
+			buildConfigurationList = F01165101CAD682D00DC915A /* Build configuration list for PBXProject "notulen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F011650C1CAD682D00DC915A;
+			productRefGroup = F01165161CAD682E00DC915A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01165141CAD682E00DC915A /* notulen */,
+				F01165281CAD683000DC915A /* notulenTests */,
+				F01165331CAD683000DC915A /* notulenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01165131CAD682E00DC915A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01165231CAD682F00DC915A /* LaunchScreen.storyboard in Resources */,
+				F01165201CAD682F00DC915A /* Assets.xcassets in Resources */,
+				F011651E1CAD682F00DC915A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01165271CAD683000DC915A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01165321CAD683000DC915A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01165111CAD682E00DC915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EAA83A1CB2AB0D00AE083C /* listItem.swift in Sources */,
+				F011651B1CAD682E00DC915A /* ViewController.swift in Sources */,
+				F01165491CAD732F00DC915A /* TableViewCell.swift in Sources */,
+				F01165191CAD682E00DC915A /* AppDelegate.swift in Sources */,
+				F0D63FAD1D772A1300E18D10 /* EmailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01165251CAD683000DC915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011652E1CAD683000DC915A /* notulenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01165301CAD683000DC915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01165391CAD683000DC915A /* notulenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F011652B1CAD683000DC915A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01165141CAD682E00DC915A /* notulen */;
+			targetProxy = F011652A1CAD683000DC915A /* PBXContainerItemProxy */;
+		};
+		F01165361CAD683000DC915A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01165141CAD682E00DC915A /* notulen */;
+			targetProxy = F01165351CAD683000DC915A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F011651C1CAD682F00DC915A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F011651D1CAD682F00DC915A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F01165211CAD682F00DC915A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01165221CAD682F00DC915A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F011653B1CAD683000DC915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F011653C1CAD683000DC915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F011653E1CAD683000DC915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = notulen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamfete.com.notulen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F011653F1CAD683000DC915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = notulen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamfete.com.notulen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F01165411CAD683000DC915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = notulenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamfete.com.notulenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notulen.app/notulen";
+			};
+			name = Debug;
+		};
+		F01165421CAD683000DC915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = notulenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamfete.com.notulenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notulen.app/notulen";
+			};
+			name = Release;
+		};
+		F01165441CAD683000DC915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = notulenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamfete.com.notulenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = notulen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F01165451CAD683000DC915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = notulenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamfete.com.notulenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = notulen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01165101CAD682D00DC915A /* Build configuration list for PBXProject "notulen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011653B1CAD683000DC915A /* Debug */,
+				F011653C1CAD683000DC915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F011653D1CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011653E1CAD683000DC915A /* Debug */,
+				F011653F1CAD683000DC915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01165401CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01165411CAD683000DC915A /* Debug */,
+				F01165421CAD683000DC915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01165431CAD683000DC915A /* Build configuration list for PBXNativeTarget "notulenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01165441CAD683000DC915A /* Debug */,
+				F01165451CAD683000DC915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F011650D1CAD682D00DC915A /* Project object */;
+}
