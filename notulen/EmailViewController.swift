@@ -25,7 +25,7 @@ class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate
         NSNotificationCenter.defaultCenter().addObserver(self, selector: (#selector(ViewController.keyboardWillShow(_:))), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: (#selector(ViewController.keyboardWillHide(_:))), name: UIKeyboardWillHideNotification, object: nil)
         
-        print(lists)
+        //print(lists)
         txtSendTo.keyboardType = UIKeyboardType.EmailAddress
         txtCcTo.keyboardType = UIKeyboardType.EmailAddress
         textArea.text = lists.rowItem()
@@ -40,8 +40,8 @@ class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate
         let mailComposerViewController = MFMailComposeViewController()
         mailComposerViewController.mailComposeDelegate = self
         
-        mailComposerViewController.setToRecipients([txtSendTo.text!])
-        mailComposerViewController.setCcRecipients([txtCcTo.text!])
+        mailComposerViewController.setToRecipients(txtSendTo.text?.componentsSeparatedByString(","))
+        mailComposerViewController.setCcRecipients(txtCcTo.text?.componentsSeparatedByString(","))
         mailComposerViewController.setSubject(txtSubject.text!)
         mailComposerViewController.setMessageBody(textArea.text!, isHTML: false)
         

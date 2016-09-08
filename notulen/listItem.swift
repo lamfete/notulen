@@ -35,4 +35,8 @@ class ListItem: NSObject {
     func delete() {
         items.removeAll()
     }
+    
+    func deleteAtIndex(index: Int) {
+        items.removeAtIndex(index)
+    }
 }

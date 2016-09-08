@@ -45,8 +45,8 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
         } else {
             //add record
             lists.addItem(itemText.text!)
-            print(itemText.text!)
-            print(lists.items)
+            //print(itemText.text!)
+            //print(lists.items)
             //dismiss keyboard and reset field
             self.view.endEditing(true)
             itemText.text = nil
@@ -92,7 +92,7 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
         if(editingStyle == UITableViewCellEditingStyle.Delete) {
             lists.items.removeAtIndex(indexPath.row)
             tableView.reloadData()
-            print(lists.items)
+            //print(lists.items)
         }
     }
     
@@ -122,20 +122,12 @@ class ViewController: UIViewController, UITableViewDataSource , UITableViewDeleg
         //}
         cell.textLabel?.text = lists.items[indexPath.row].desc
         return cell
-        
-        /*
-        var cell:UITableViewCell? = tableView.dequeueReusableCellWithIdentifier("CELL") as? UITableViewCell;
-        if(cell == nil)
-        {
-        cell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier: "CELL")
-        cell?.selectionStyle = UITableViewCellSelectionStyle.None
-        }
-        cell?.textLabel.font = UIFont.systemFontOfSize(15.0)
-        cell?.textLabel.sizeToFit()
-        cell?.textLabel.text = messageArray[indexPath.row]
-        cell?.textLabel.numberOfLines = 0
-        return cell!;
-        */
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        itemText.text = lists.items[indexPath.row].desc
+        lists.items.removeAtIndex(indexPath.row)
+        tableView.reloadData()
     }
     
 }
